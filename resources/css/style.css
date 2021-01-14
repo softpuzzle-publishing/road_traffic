@@ -87,12 +87,6 @@ body{ display:table; }
 .search_list li button{width:27px;height:27px;background: #676b77;border-radius: 50%;position: absolute;top: calc(50% - 13.5px);right: 25px;}
 .search_list li button::before{content: '';display: block;width: 0;height: 0;border-style: solid;border-width: 5px 0 5px 10px;border-color: transparent transparent transparent #ffffff;position: absolute;left: 50%;top: 50%;margin: -5px 0 0 -4px;}
 
-li.kr,
-li.en{padding-right: 5px;}
-.content_02 .content > li.kr .list dl{padding-right: 0;}
-.content_02 .content > li.kr .list dl dd span{margin-right: 0;width: auto;}
-li.kr button{display: none;}
-
 @media (max-width: 768px) {
     .section{width: auto;margin: 1.5rem;height: auto;}
 

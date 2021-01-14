@@ -40,7 +40,7 @@ jQuery(document).ready(function(){
 	$('.list button').on('click',function(e){
 		e.preventDefault();
 		var fileNamedep1 = $('.title span').text();
-		var fileNamedep2 = $(this).parents('.en').find('.list').index($(this).closest('.list')) + 1;
+		var fileNamedep2 = $(this).parents('li').find('.list').index($(this).closest('.list')) + 1;
 		var fileNamedep3 = $(this).parents('.list').find('dl:not(.no-sound)').index($(this).closest('dl')) + 1;
 		console.log(fileNamedep1,fileNamedep2,fileNamedep3);
 
